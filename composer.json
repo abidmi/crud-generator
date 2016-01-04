@@ -1,0 +1,27 @@
+{
+    "name": "abidmi/crud-generator",
+    "license": "MIT",
+    "description": "Laravel 5 CRUD Generator",
+    "keywords": [
+        "laravel",
+        "crud",
+        "crud generator",
+        "laravel crud generator"
+    ],
+    "authors": [
+        {
+            "name": "Abid Muhamad Ismi",
+            "email": "abid.muhamad.ismi@gmail.com",
+            "homepage": "http://abidmi.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abidmi\\CrudGenerator\\": "src/"
+        }
+    }
+}
