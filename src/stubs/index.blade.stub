@@ -18,12 +18,12 @@
                     <td>{{ $x }}</td>
                     %%formBodyHtml%%
                     <td>
-                        <a href="{{ url('%%routeGroup%%%%crudName%%/' .$item->id.) }}">
+                        <a href="{{ url('%%routeGroup%%%%crudName%%', $item->id) }}">
                             <button type="submit" class="btn btn-default btn-xs glyphicon glyphicon-eye-open"></button>
                         </a>
                         <a href="{{ url('%%routeGroup%%%%crudName%%/' . $item->id . '/edit') }}">
                             <button type="submit" class="btn btn-default btn-xs glyphicon glyphicon-edit"></button>
-                        </a> /
+                        </a>
                         {!! Form::open([
                             'method'=>'DELETE',
                             'url' => ['%%routeGroup%%%%crudName%%', $item->id],
